@@ -195,6 +195,7 @@ body {
     background: #99e2d0;
     top: 20px;
     right: 20px;
+    border-radius: 20px 20px 20px 20px;
   }
   
   .restaurant__card-new p {
