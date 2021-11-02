@@ -359,9 +359,10 @@ header .header__logo a {
 .footer__bloc-link__title {
   font-size: 16px;
   font-weight: 400;
+  list-style: none;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 767px) {
   .menu {
     margin-top: -60px;
   }
