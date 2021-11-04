@@ -111,7 +111,6 @@ body {
   
   .menu__header__heart .heart-empty:hover {
     opacity: 0;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   
@@ -241,15 +240,6 @@ body {
     align-items: center;
   }
   
-  @-webkit-keyframes rotate {
-    0% {
-    transform: rotate(0);
-    }
-    100% {
-    transform: rotate(360deg);
-    }
-  }
-  
   @keyframes rotate {
     0% {
     transform: rotate(0);
@@ -259,30 +249,12 @@ body {
     }
   }
   
-  @-webkit-keyframes slide-left {
-    0% {
-    transform: scaleX(0);
-    }
-    100% {
-    transform: scaleX(-50px);
-    }
-  }
-  
   @keyframes slide-left {
     0% {
     transform: scaleX(0);
     }
     100% {
     transform: scaleX(-50px);
-    }
-  }
-  
-  @-webkit-keyframes opacity {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
     }
   }
   
